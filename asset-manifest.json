@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/formular-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/formular-app/static/js/main.bf44cb81.chunk.js",
+    "main.js.map": "/formular-app/static/js/main.bf44cb81.chunk.js.map",
+    "runtime-main.js": "/formular-app/static/js/runtime-main.5736f3b5.js",
+    "runtime-main.js.map": "/formular-app/static/js/runtime-main.5736f3b5.js.map",
+    "static/js/2.6486c077.chunk.js": "/formular-app/static/js/2.6486c077.chunk.js",
+    "static/js/2.6486c077.chunk.js.map": "/formular-app/static/js/2.6486c077.chunk.js.map",
+    "index.html": "/formular-app/index.html",
+    "precache-manifest.106ff3d2b75f7234f43b0d7c00a586cc.js": "/formular-app/precache-manifest.106ff3d2b75f7234f43b0d7c00a586cc.js",
+    "service-worker.js": "/formular-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/formular-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6486c077.chunk.js.LICENSE.txt": "/formular-app/static/js/2.6486c077.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/formular-app/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5736f3b5.js",
+    "static/js/2.6486c077.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.bf44cb81.chunk.js"
+  ]
+}
