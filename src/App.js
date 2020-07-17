@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Menu from './Menu/Menu';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Maths from './Menu/Subjects/Maths/Maths';
+import Physics from './Menu/Subjects/Physics/Physics';
+import History from './Menu/Subjects/History/History';
+import Chemistry from './Menu/Subjects/Chemistry/Chemistry';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Menu />
+        <Route exact path='/maths' component={Maths} />
+        <Route exact path='/physics' component={Physics} />
+        <Route exact path='/history' component={History} />
+        <Route exact path='/chemistry' component={Chemistry} />
+        <div className='text'>Формулы</div>
+      </BrowserRouter>
     </div>
   );
 }

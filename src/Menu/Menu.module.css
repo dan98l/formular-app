@@ -1,0 +1,9 @@
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    /* background-color: #e0e5eb; */
+    min-height: 1vh;
+    padding: 0;
+    margin: 0;
+}
