@@ -1,8 +1,6 @@
 import React from 'react'
 import css from './Subjects.module.css'
 import { NavLink } from 'react-router-dom'
-import { BrowserRouter, Route } from 'react-router-dom';
-import Maths from './Maths/Maths';
 
 const Subjects = (props) => {
     return (
