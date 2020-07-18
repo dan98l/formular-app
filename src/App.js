@@ -16,7 +16,7 @@ function App() {
         <Route exact path='/physics' component={Physics} />
         <Route exact path='/history' component={History} />
         <Route exact path='/chemistry' component={Chemistry} />
-        <div className='text'>Formulas</div>
+        <div className='text'>Test for GitHub Pages</div>
       </BrowserRouter>
     </div>
   );
